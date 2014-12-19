@@ -1,0 +1,36 @@
+  <form id="set">
+    <h1>/vote/:gender/:id</h1>
+    <select id="set-gender">
+      <option>men</option>
+      <option>women</option>
+    </select>
+    <select id="set-id">
+      <option id="set-1">1</option>
+      <option id="set-2">2</option>
+      <option id="set-3">3</option>
+      <option id="set-4">4</option>
+      <option id="set-5">5</option>
+      <option id="set-6">6</option>
+      <option id="set-7">7</option>
+      <option id="set-8">8</option>
+    </select>
+    <input type="submit" id="set-submit" value="submit" />
+  </form>
+  <textarea id="set-results" style="height: 100px; width: 500px;">
+    returns the updated vote count for this upc.
+  </textarea>
+
+  <form id="get">
+    <h1>/get_votes/:gender</h1>
+    <select id="get-gender">
+      <option>men</option>
+      <option>women</option>
+    </select>
+    <input type="submit" id="get-submit" value="submit" />
+  </form>
+  <textarea id="get-results" style="height: 100px; width: 500px;">
+    returns the top 3 results for this gender.
+  </textarea>
+
+<script src="jquery.js"></script>
+<script src="main.js"></script>

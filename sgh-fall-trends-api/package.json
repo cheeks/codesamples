@@ -1,0 +1,16 @@
+{
+  "name": "fall-trends-api",
+  "description": "Provides an API for voting and getting vote counts",
+  "version": "0.1.0",
+  "engines": {
+    "node": "~0.10.25"
+  },
+  "dependencies": {
+    "express": "latest",
+    "mongoose": "~3.8.12",
+    "request": "~2.36.0",
+    "url": "~0.10.1",
+    "ejs": "~1.0.0",
+    "logfmt": "~1.1.2"
+  }
+}
